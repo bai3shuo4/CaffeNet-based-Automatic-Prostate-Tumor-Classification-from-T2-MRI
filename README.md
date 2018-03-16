@@ -20,7 +20,6 @@ EE211_finalproject
 │   └── lock.mdb
 ├── imagenet_mean.binaryproto
 ├── make_imagenet_mean.sh
-├── sample.py
 ├── train.txt
 ├── train_test.sh
 └── val.txt
