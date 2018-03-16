@@ -1,0 +1,13 @@
+net: "models/bvlc_reference_caffenet/train_val.prototxt"
+test_iter: 70
+test_interval: 800  
+base_lr: 0.001
+lr_policy: "poly"
+power: 0.75
+display: 200
+max_iter: 4000
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 800
+snapshot_prefix: "models/bvlc_reference_caffenet/balance_unself5/caffenet_train"
+solver_mode: CPU
