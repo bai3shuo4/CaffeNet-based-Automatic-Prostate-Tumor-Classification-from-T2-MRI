@@ -11,7 +11,6 @@ EE211_finalproject
 │  	│ 	│── bvlc_reference_caffenet
 │	│	│	├── train_val.prototxt
 │	│	│	└── solver.prototxt
-├── create_imagenet.sh
 ├── ilsvrc12_train_lmdb
 │   ├── data.mdb
 │   └── lock.mdb
@@ -19,9 +18,10 @@ EE211_finalproject
 │   ├── data.mdb
 │   └── lock.mdb
 ├── imagenet_mean.binaryproto
+├── create_imagenet.sh
 ├── make_imagenet_mean.sh
-├── train.txt
 ├── train_test.sh
+├── train.txt
 └── val.txt
 ```
 Introduction
