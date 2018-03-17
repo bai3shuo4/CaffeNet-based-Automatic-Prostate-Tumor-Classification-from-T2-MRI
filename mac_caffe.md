@@ -1,12 +1,14 @@
 caffe on mac os and create python interface
 ===
 
-###install brew
+install brew
+---
 ```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
-###install dependecies with brew
+install dependecies with brew
+---
 
 ```
 brew install -vd snappy leveldb gflags glog szip lmdb
@@ -24,7 +26,8 @@ brew install --build-from-source --with-python -vd protobuf
 brew install --build-from-source -vd boost boost-python
 ```
 
-###create virtualenv
+create virtualenv
+---
 ```
 cd workspace
 ```
@@ -32,7 +35,7 @@ cd workspace
 virtualenv ENV
 ```
 ```
-git clone $URL of caffe$
+git clone https://github.com/BVLC/caffe.git
 ```
 ```
 cp Makefile.Config.example Makefile.config
@@ -57,7 +60,8 @@ make test
 make runtest
 ```
 
-###create python interface
+create python interface
+---
 ```
 make pycaffe
 ```
